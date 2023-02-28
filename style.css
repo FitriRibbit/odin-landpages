@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0 ;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: gray;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.big-container {
+    height: auto;
+}
+
+.one {
+    height : 220px;
+    background: brown;
+}
+
+.big-container-source {
+    position: relative;
+    height: 100%;
+    background: brown;
+}
+
+.one-first {
+    display: flex;
+    position: fixed;
+    background: peru;
+    width: 1350px;
+    margin-top: 0;
+}
+
+.one-first div {
+    flex-wrap: nowrap;
+    height: 25px;
+    padding: 6px;
+    margin: 0 20px 0 4px;
+}
+
+.content {
+    flex-basis: 90%;
+}
+
+.one-firsts {
+    display: flex;
+    position: fixed;
+    background: peru;
+    width: 1400px;
+    text-align: right;
+}
+
+.one-firsts div {
+    flex-wrap: nowrap;
+    height: 25px;
+    padding: 6px;
+    flex-basis: 90%;
+}
+
+.one-second {
+    margin-top: 0px;
+    height: 180px;
+    background: brown;
+    text-align: center;
+}
+
+.one-second h1 {
+    padding-top: 38px;
+}
+
+p {
+    margin: 15px 2px 2px 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.one-seconds h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.one-seconds ol.a {
+    text-align: center;
+    margin: 20px 2px 8px 5px;
+    line-height: 30px;
+    size: 50px;
+}
+
+.two {
+    height: 300px;
+    background: peru;
+}
+
+#text {
+    height: 16px;
+    text-align: center;
+}
+
+.box-text {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.box-text div {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 120px;
+    padding-right: 50px;
+}
+
+.box-text img {
+    width: 120px;
+    height: 150px;
+}
+
+.box-text p {
+    margin-top: 0;
+    text-align: center;
+}
+
+.three {
+    height: 250px;
+    background: brown;
+    text-align: center;
+    
+}
+
+.quote {
+    text-align: right;
+    padding: 70px 2px 0;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background: peru;
+    height: 35px;
+    padding: 6px;
+    color: azure;   
+}
+
+footer p {
+    flex: 1;
+    font-size: 14px;
+    margin-top: 2px;
+    text-align: center;
+}
+
+
+
+
+
