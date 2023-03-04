@@ -19,11 +19,12 @@ a {
 }
 
 .big-container {
-    height: auto;
+    height: 100%;
+    background: brown;
 }
 
 .one {
-    height : 220px;
+    height : 30%;
     background: brown;
 }
 
@@ -37,7 +38,7 @@ a {
     display: flex;
     position: fixed;
     background: peru;
-    width: 1350px;
+    width: 100%;
     margin-top: 0;
 }
 
@@ -56,7 +57,7 @@ a {
     display: flex;
     position: fixed;
     background: peru;
-    width: 1400px;
+    width: 100%;
     text-align: right;
 }
 
@@ -68,8 +69,7 @@ a {
 }
 
 .one-second {
-    margin-top: 0px;
-    height: 180px;
+    height: 75%;
     background: brown;
     text-align: center;
 }
@@ -98,7 +98,7 @@ p {
 }
 
 .two {
-    height: 300px;
+    height: 45%;
     background: peru;
 }
 
@@ -133,7 +133,7 @@ p {
 }
 
 .three {
-    height: 250px;
+    height: 25%;
     background: brown;
     text-align: center;
     
@@ -141,7 +141,7 @@ p {
 
 .quote {
     text-align: right;
-    padding: 70px 2px 0;
+    padding: 10px 2px 0;
     font-size: 14px;
 }
 
@@ -149,7 +149,7 @@ footer {
     display: flex;
     flex-direction: column;
     background: peru;
-    height: 35px;
+    height: 5%;
     padding: 6px;
     color: azure;   
 }
